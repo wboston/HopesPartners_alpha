@@ -136,7 +136,7 @@ namespace HopesPartners_alpha.Controllers
 
         //
         // GET: /Account/Register
-        [Authorize(Roles = "SuperAdmin, Admin, Content-Manager, Account-Manager, Partner")]
+        [Authorize(Roles = "SuperAdmin, Admin, Account-Manager")]
         public ActionResult Register()
         {
             return View();
